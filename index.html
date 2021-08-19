@@ -13,7 +13,10 @@
     </style>
     <script>
         $(function() {
-            
+            // 마우스 우클릭, 드래그 차단
+            $(document).on("contextmenu dragstart selectstart", function(e){
+                return false;
+            });
         });
     </script>
 </head>
