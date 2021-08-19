@@ -1,0 +1,67 @@
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -640px;
+    margin-top: -360px;
+    width: 1280px;
+    height: 720px;
+}
+
+.sidebar {
+    float: left;
+    width: 300px;
+    height: 720px;
+    border: 1px solid;
+    text-align: center;
+}
+
+.content {
+    float: right;
+    width: 980px;
+    height: 720px;
+    border: 1px solid;
+    /* 글이 길어지면 자동 스크롤바 생성 */
+    overflow: auto;
+}
+
+#navs {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+a.nav-link {
+    color: black;
+}
+
+a.active {
+    font-weight: bold;
+}
+
+.card-header {
+    padding: 8px 20px;
+}
+
+.major {
+    margin-top: -10px;
+}
+
+.bottom {
+    margin-top: 0px;
+    margin-bottom: -20px;
+}
+
+.edu-bottom {
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+
+.exp-top {
+    margin-bottom: -20px;
+}
+
+.project-img {
+    width: 295px;
+}
